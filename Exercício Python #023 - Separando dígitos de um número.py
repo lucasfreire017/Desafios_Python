@@ -1,0 +1,6 @@
+num = str(input('Digite um número entre 0 a 9999:'))
+print('-=-'*4)
+print('Unidade:{}'.format(num[0]))
+print('Dezena:{}'.format(num[1]))
+print('Centena:{}'.format(num[2]))
+print('Milhar:{}'.format(num[3]))
