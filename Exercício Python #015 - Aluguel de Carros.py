@@ -1,0 +1,7 @@
+print('\033[33m-=-\033[m'*6)
+print('\033[1;36mALUGEL DE CARROS\033[m')
+print('\033[33m-=-\033[m'*6)
+dias = int(input('\033[1;35mQuantos dias alugados? '))
+km = float(input('Quantos Km rodados?\033[m '))
+total = (dias * 60) + (km * 0.15)
+print('\033[1mPreço: \033[32mR${:.2f}'.format(total))
